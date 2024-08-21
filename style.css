@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+header img {
+   display: block;
+   margin: 0 auto;
+   margin-top: 10px;
+   width: 200px;
+}
+/* nav menu */
+nav {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 2%;
+}
+nav:hover {
+    background-color: azure;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    height: 60px;
+    line-height: 60px;
+}
+ul li a{
+    padding: 12px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+/* hero section */
+.hero img {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+/* hero section caption */
+.hero .text {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-left: -290px;
+}
+.text span {
+    font-size: 5rem;
+    color: #ee3e3e;
+}
+.text:hover {
+    transform: rotate(15deg);
+    transform-origin: left right;
+    display: inline-block;
+}
+/* articles or product section */
+section {
+    display: flex;
+    margin: 0 auto;
+    width: 800px;
+}
+article {
+    margin: 4px;
+    margin-top: 12px;
+    padding: 5px;
+    background-color: lightblue;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 2%;
+}
+article:hover{
+    background-color: #ffffff;
+}
+.price {
+    font-size: 20px;
+    color: #ee3e3e;
+    font-weight: bold;
+}
+.disc {
+    font-size: 16px;
+    color: #000;
+    text-decoration: line-through;
+}
+h2 {
+    font-size: 16px;
+}
+article img {
+    width: 250px;
+}
+/* footer section */
+ footer {
+    display: flex;
+    margin-top: 50px;
+}
+footer div img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 200px;
+    background-color: #000;
+} 
+footer div {
+    flex: 1;
+    text-align: center;
+} 
